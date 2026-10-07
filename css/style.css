@@ -321,6 +321,54 @@ main{
     background-size: cover;
     background-position: center;
 }
+#main4{
+    background-image: url("/assets/images/image.jfif");
+    background-size: cover;
+    background-position: center;
+}
+#nom1{
+    font-size: 50px;
+    color: black
+}
+#name{
+    font-size: 30px;
+    width: 1000px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#email1{
+    font-size: 50px;
+    color: black
+}
+#email{
+    font-size: 30px;
+    width: 1000px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#tel1{
+    font-size: 50px;
+    color: black
+}
+#tel{
+    font-size: 30px;
+    width: 1000px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#profil1{
+    font-size: 50px;
+    color: black
+}
+#profile{
+    font-size: 30px;
+    width: 1000px;
+    height: 40px;
+    border-radius: 50px;
+}
 
 
 
