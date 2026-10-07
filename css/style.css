@@ -57,7 +57,7 @@ h2 {
     font-weight: 200;
 }
 #cles{
-    margin-top: 100px;
+    margin-top: 0;
     text-align: center;
     font-size: 50px;
     
@@ -75,7 +75,7 @@ h2 {
 }
 main{
     text-align: center;
-
+    margin: 0;
 }
 #dbtn {
     color: white;
@@ -131,3 +131,207 @@ main{
 #body1 {
     background-color: #cddeb1;
 }
+#main3{
+    width: 100%;
+    /* background-image: url("/assets/images/image.jfif"); */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.intervenants{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+#intervenant1{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.cart{   
+    height: 500px;
+}
+
+.name1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom1{
+    text-align: center;
+    padding-top: 40px;
+}
+#intervention1{
+    text-align: center;
+}
+#linkedin1{
+    position: relative;
+    left: 250px;
+}
+#moutiaa{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#intervenant2{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.name2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom2{
+    text-align: center;
+}
+#intervention2{
+    text-align: center;
+}
+#linkedin2{
+    position: relative;
+    left: 250px;
+}
+#amine{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#intervenant3{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.name3{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom3{
+    text-align: center;
+}
+#intervention3{
+    text-align: center;
+}
+#linkedin3{
+    position: relative;
+    left: 250px;
+}
+#salma{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#intervenant4{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.name4{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom4{
+    text-align: center;
+}
+#intervention4{
+    text-align: center;
+}
+#linkedin4{
+    position: relative;
+    left: 250px;
+}
+#fatima{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#intervenant5{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.name5{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom5{
+    text-align: center;
+}
+#intervention5{
+    text-align: center;
+}
+#linkedin5{
+    position: relative;
+    left: 250px;
+}
+#rachid{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#intervenant6{
+    background-color: #8E9C78;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: left;
+}
+.name6{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+#nom6{
+    text-align: center;
+}
+#intervention6{
+    text-align: center;
+}
+#linkedin6{
+    position: relative;
+    left: 250px;
+}
+#hoda{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+#body3{
+      background-image: url("/assets/images/image.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
