@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,13 +13,14 @@ content="width=device-width,initial-scale=1.0">
         <img id="logo" src="/assets/icons/AtlasLogo-transparent.webp" alt="logo">
         <button id="pbtn">Learn More</button>
         <div id="tag1">
-        <a>Acceuil</a>
-        <a>programme</a>
-        <a>intervenants</a>
-        <a>inscription</a>
+        <a href="Accueil.html">Acceuil</a>
+        <a href="programme.html">programme</a>
+        <a href="intervenants.html">intervenants</a>
+        <a href="inscription.html">inscription</a>
         </div>
     </header>
     <main id="main4">
+        <h1 id="titre">FORMULAIRE D'INSCRIPTION</h1>
         <form>
             <label for="name" id="nom1">Nom Complet:</label><br>
             <input type="text" id="name" minlength="3" required><br><br>
@@ -28,34 +29,68 @@ content="width=device-width,initial-scale=1.0">
             <input type="email" id="email" required><br><br>
 
             <label for="tel" id="tel1">Telephone:</label><br>
-            <input type="tel" id="tel" placeholder="+212 6XXXXXXXX" pattern="+212[0-9]{9}" required><br><br>
+            <input type="tel" id="tel" name="tel" pattern="^(\+212|0)[5-7][0-9]{8}$" required><br><br>
 
-            <label id="profil1">Profile:</label><br>
+            <label id="profil1">Profile:</label><br><br>
+            <div class="profile">
 
-            <input type="radio" id="Étudiant" name="Profile" value="etudiant" required>
-            <label for="etudiant">Étudiant·e</label>
-            <br><br>
+                <div>
+                    <input type="radio" name="Profile" id="etudiant" value="etudiant" required>&emsp;
+                    <label for="etudiant">Étudiant·e</label>
+                </div>
+                <div>
+                    <input type="radio" name="Profile" id="Developpeur" value="developeur">&emsp;
+                    <label for="Developpeur">Développeur·se</label>
+                </div>
+    
+                <div>
+                    <input type="radio" name="Profile" value="autre">&emsp;
+                    <label for="autre" >Autre</label>
+                </div>
+            </div><br>
 
-            <input type="radio" id="Developpeur" name="Profile" value="developeur">
-            <label for="Developpeur">Développeur·se</label>
-            <br><br>
+            <label id="ateliers">Ateliers Souhaitées:</label><br><br>
+            <div class="atelier">
 
-            <input type="radio" id="autre" name="Profile" value="autre">
-            <label for="autre">Autre</label><br><br>
+                <div>
+                    <input type="checkbox" name="atelier" value="Git/Github" >&emsp;
+                    <label for="Git/Github">Git/Github</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="atelier" value="HTML/CSS">&emsp;
+                    <label for="HTML/CSS">HTML/CSS</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" name="atelier" value="Java/JavaScript">&emsp;
+                    <label for="Java/JavaScript" >Java/JavaScript</label>
+                </div>
+            </div><br><br>
+            <label id="jour">Journée(s) de participation</label><br><br>
+            <div class="jours">
+                <div>
+                    <input type="radio" name="jour" value="Jour1" required>&emsp;
+                    <label for="jour1">journée 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="jour" value="Jour2">&emsp;
+                    <label for="jour2">journée 2</label>
+                </div>
+                <div>
+                    <input type="radio" name="jour" value="les deux">&emsp;
+                    <label for="les deux">Les Deux Jours</label>
+                </div>
+            </div><br><br>
 
-            <label for="atelier" >Atelier Souhaiter</label><br>
-            <input type="checkbox"><br><br>
+            <label id="msg">Message:</label><br>
+            <input type="text" id="msg1"><br><br>
 
-            <label for="jour">journée d'inscription</label><br>
-            <input type="radio"><br><br>
+            <div  id="cons1">
+                <input type="checkbox" required> &emsp;
+                <label>Consentement</label><br><br>
+            </div><br><br>
 
-            <label for="msg">message</label><br>
-            <input type="text"><br><br>
-
-            <label for="cons">consentement</label><br>
-            <input type="checkbox"><br><br>
-
-            <input type="submit" value="Submit">
+            <input id="sbmt" type="submit" value="Submit">
 
         </form>
     </main>

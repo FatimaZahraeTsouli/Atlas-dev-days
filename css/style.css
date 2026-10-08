@@ -317,7 +317,7 @@ main{
     height: 300px;
 }
 #body3{
-      background-image: url("/assets/images/image.jfif");
+    background-image: url("/assets/images/image.jfif");
     background-size: cover;
     background-position: center;
 }
@@ -327,51 +327,140 @@ main{
     background-position: center;
 }
 #nom1{
-    font-size: 50px;
-    color: black
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: 500px;
 }
 #name{
     font-size: 30px;
-    width: 1000px;
-    height: 40px;
+    width: 800px;
+    height: 30px;
     border-radius: 50px;
+    position: relative;
+    right: 200px;
 }
 
 #email1{
-    font-size: 50px;
-    color: black
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: 550px;
 }
 #email{
     font-size: 30px;
-    width: 1000px;
-    height: 40px;
+    width: 800px;
+    height: 30px;
     border-radius: 50px;
+    position: relative;
+    right: 200px;
 }
 
 #tel1{
-    font-size: 50px;
-    color: black
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: 530px;
 }
 #tel{
     font-size: 30px;
-    width: 1000px;
-    height: 40px;
+    width: 800px;
+    height: 30px;
     border-radius: 50px;
+    position: relative;
+    right: 200px;
 }
 
 #profil1{
-    font-size: 50px;
-    color: black
-}
-#profile{
     font-size: 30px;
-    width: 1000px;
-    height: 40px;
-    border-radius: 50px;
+    color: black;
+    position: relative;
+    right: 550px;
 }
 
 
+.profile{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
 
+.profile > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 10px;
+}
+#ateliers{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: 480px;
+}
+.atelier{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.atelier > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 10px;
+}
+#jour{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    right: 450px;
+}
+.jours{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.jours > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 10px;
+}
+#msg{
+   font-size: 30px;
+    color: black;
+    position: relative;
+    right: 550px; 
+}
+#msg1{
+    font-size: 30px;
+    width: 800px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    right: 200px;
+}
+
+#cons1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    font-size: 30px;
+}
+#sbmt{
+    font-size: 50px;
+    width: 400px;
+    height: 70px;
+    background-color: #485C11;
+}
+#titre{
+    color: azure;
+    font-size: 50px;
+}
 
 
 
