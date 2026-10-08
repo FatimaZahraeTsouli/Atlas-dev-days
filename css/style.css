@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
 #pbtn {
     color: white;
     background-color: #485C11;
@@ -25,7 +31,13 @@ header{
     
 }
 footer{
-    background-color:#cddeb1;
+    background-color:dimgrey;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 300px;
+    margin-bottom: 0px;
+    position: relative;
 }
 #mention {
     text-align: center;
@@ -49,12 +61,17 @@ h1 {
     text-align: center;
     font-size: 120px;
     font-weight: 200;
+    margin-top: 0;
 }
 h2 {
     color: black;
     text-align: center;
     font-size: 60px;
     font-weight: 200;
+    margin-top: 0;
+}
+#date{
+    font-size: 50px;
 }
 #cles{
     margin-top: 0;
@@ -76,6 +93,7 @@ h2 {
 main{
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 #dbtn {
     color: white;
@@ -106,6 +124,19 @@ main{
      text-align:left;
     font-size:medium;
 }
+#programme{
+    font-size: 50px;
+}
+.prog1{
+    font-size: 30px;
+}
+.prog2{
+    font-size: 30px;
+}
+#pjour{
+    font-size: 40px;
+}
+
 
 .titre{
     background-color: #8E9C78;
@@ -120,7 +151,7 @@ main{
 }
 #image2 {
     margin-top:0 ;
-     width: 500%;
+    width: 500%;
     max-width: 1250px;
     height: 400px;
     object-fit: cover;
@@ -133,16 +164,26 @@ main{
 }
 #main3{
     width: 100%;
-    /* background-image: url("/assets/images/image.jfif"); */
     background-size: cover;
     background-position: center;
     text-align: center;
 }
-.intervenants{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 200px;
+.apercue{
+     display: flex;
+    gap: 0px;
 }
+ .intervenants1{
+    display: flex;
+    gap: 370px;
+ }
+  .intervenants2{
+    display: flex;
+    gap: 370px;
+ }
+  .intervenants3{
+    display: flex;
+    gap: 370px;
+ }
 
 #intervenant1{
     background-color: #8E9C78;
@@ -160,16 +201,13 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom1{
-    text-align: center;
-    padding-top: 40px;
-}
+
 #intervention1{
     text-align: center;
 }
 #linkedin1{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #moutiaa{
     border-radius: 50px;
@@ -189,7 +227,7 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom2{
+#nom{
     text-align: center;
 }
 #intervention2{
@@ -197,7 +235,7 @@ main{
 }
 #linkedin2{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #amine{
     border-radius: 50px;
@@ -217,15 +255,13 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom3{
-    text-align: center;
-}
+
 #intervention3{
     text-align: center;
 }
 #linkedin3{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #salma{
     border-radius: 50px;
@@ -245,15 +281,13 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom4{
-    text-align: center;
-}
+
 #intervention4{
     text-align: center;
 }
 #linkedin4{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #fatima{
     border-radius: 50px;
@@ -273,15 +307,13 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom5{
-    text-align: center;
-}
+
 #intervention5{
     text-align: center;
 }
 #linkedin5{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #rachid{
     border-radius: 50px;
@@ -301,15 +333,13 @@ main{
     justify-content: space-between;
     padding-right: 50px;
 }
-#nom6{
-    text-align: center;
-}
+
 #intervention6{
     text-align: center;
 }
 #linkedin6{
     position: relative;
-    left: 250px;
+    left: 170px;
 }
 #hoda{
     border-radius: 50px;
