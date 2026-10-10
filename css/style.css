@@ -497,11 +497,6 @@ main{
     color: azure;
     font-size: 50px;
 }
-@media (max-width: 600px){
-    .intervenants{
-        flex-direction:column;
-    }
-}
 
 
 
