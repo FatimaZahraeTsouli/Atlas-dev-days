@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
 }
 #pbtn {
     color: white;
@@ -31,7 +32,10 @@ header{
     
 }
 footer{
-    background-color:dimgrey;
+    background-image: url("../assets/images/backgroundimage.jfif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,16 +44,15 @@ footer{
     position: relative;
 }
 #mention {
-    text-align: center;
-}
-#tag1 {
-    text-align: center;
+    text-align: right;
     font-size: large;
+    font-weight: 1000;
+}
+#tag1  {
+    font-size: 25px;
     display: flex;
     gap: 100px;
-    justify-content: center;
     align-items: center;
-    font-weight: 600;
 }
 #main2{
     margin-top: 0px;
@@ -95,13 +98,12 @@ main{
     color: white;
     background-color: #485C11;
     height: 50px;
-    width: 30%;
+    width: 100%;
     font-size: 30px;
-    border-radius: 15px;  
-    margin: 0 auto;
+    margin: 0;
 }
 #image1 {
-    width: 50%;
+    width: 100%;
     max-width: 1250px;
     height: 500px;
     object-fit: cover;
@@ -134,18 +136,14 @@ main{
 
 .titre{
     background-color: #8E9C78;
-    border-radius: 50px;
 }
-
+.titre p{
+    margin-bottom: 0;
+}
 #image2 {
-    margin-top:0 ;
-    width: 500%;
-    max-width: 1250px;
-    height: 400px;
-    object-fit: cover;
+    width: 100%;
+    height: 500px;
     display: block;
-    margin: auto;
-    border-radius: 50px;
 }
 #body1 {
     background-color: #cddeb1;
@@ -159,20 +157,23 @@ main{
 
 .apercue{
     display: flex;
-    gap: 0px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image: url(../assets/images/backgroundimage.jfif);
+    background-size: cover;
+    min-height: 500px;
+
 }
 
  .intervenants1{
     display: flex;
-    gap: 370px;
+    justify-content: space-evenly;
+    gap: 40px;
  }
   .intervenants2{
     display: flex;
-    gap: 370px;
- }
-  .intervenants3{
-    display: flex;
-    gap: 370px;
+    justify-content: space-evenly;
+    gap: 40px;
  }
 
 #intervenant1{
@@ -183,7 +184,7 @@ main{
     text-align: left;
 }
 .cart{   
-    height: 500px;
+    height: 350px;
 }
 
 .name1{
@@ -201,8 +202,8 @@ main{
 }
 #moutiaa{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #intervenant2{
@@ -229,8 +230,8 @@ main{
 }
 #amine{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #intervenant3{
@@ -255,8 +256,8 @@ main{
 }
 #salma{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #intervenant4{
@@ -281,8 +282,8 @@ main{
 }
 #fatima{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #intervenant5{
@@ -307,8 +308,8 @@ main{
 }
 #rachid{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #intervenant6{
@@ -333,8 +334,8 @@ main{
 }
 #hoda{
     border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 #body3{
     background-image: url("../assets/images/backgroundimage.jfif");
@@ -348,61 +349,64 @@ main{
 }
 #nom1{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
     right: 500px;
 }
 #name{
     font-size: 30px;
-    width: 800px;
-    height: 30px;
+    width: 900px;
+    height: 35px;
     border-radius: 50px;
     position: relative;
-    right: 200px;
+    right: 120px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #email1{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
     right: 550px;
 }
 #email{
     font-size: 30px;
-    width: 800px;
-    height: 30px;
+    width: 900px;
+    height: 35px;
     border-radius: 50px;
     position: relative;
-    right: 200px;
+    right: 120px;
+     font-size: 16px;
+    font-weight: bold;
 }
 
 #tel1{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
-    right: 530px;
+    right: 520px;
 }
 #tel{
     font-size: 30px;
-    width: 800px;
-    height: 30px;
+    width: 900px;
+    height: 35px;
     border-radius: 50px;
     position: relative;
-    right: 200px;
+    right: 120px;
+     font-size: 16px;
+    font-weight: bold;
 }
 
 #profil1{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
-    right: 550px;
-}
-
-
-.profile{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
+    right: 545px;
 }
 
 .profile > div {
@@ -412,16 +416,17 @@ main{
     font-size: 30px;
     gap: 10px;
 }
+.profile input{
+    width: 20px;
+    height: 20px;
+}
+
 #ateliers{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
-    right: 480px;
-}
-.atelier{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
+    right: 465px;
 }
 
 .atelier > div {
@@ -431,16 +436,16 @@ main{
     font-size: 30px;
     gap: 10px;
 }
+.atelier input{
+    width: 20px;
+    height: 20px;
+}
 #jour{
     font-size: 30px;
+    font-weight: 1000;
     color: black;
     position: relative;
-    right: 450px;
-}
-.jours{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
+    right: 415px;
 }
 
 .jours > div {
@@ -450,19 +455,26 @@ main{
     font-size: 30px;
     gap: 10px;
 }
+.jours input{
+    width: 20px;
+    height: 20px;
+}
 #msg{
    font-size: 30px;
+   font-weight: 1000;
     color: black;
     position: relative;
-    right: 550px; 
+    right: 530px; 
 }
 #msg1{
     font-size: 30px;
-    width: 800px;
-    height: 30px;
+    width: 1000px;
+    height: 35px;
     border-radius: 50px;
     position: relative;
-    right: 200px;
+    right: 120px;
+     font-size: 16px;
+    font-weight: bold;
 }
 
 #cons1{
@@ -470,6 +482,10 @@ main{
     justify-content: flex-start;
     padding-left: 5px;
     font-size: 30px;
+}
+#const{
+    width: 20px;
+    height: 20px;
 }
 #sbmt{
     font-size: 50px;
