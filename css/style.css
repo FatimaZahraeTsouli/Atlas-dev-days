@@ -181,7 +181,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .cart{   
     height: 350px;
@@ -196,10 +196,6 @@ main{
 #intervention1{
     text-align: center;
 }
-#linkedin1{
-    position: relative;
-    left: 170px;
-}
 #moutiaa{
     border-radius: 50px;
     width: 200px;
@@ -211,7 +207,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .name2{
     display: flex;
@@ -224,10 +220,6 @@ main{
 #intervention2{
     text-align: center;
 }
-#linkedin2{
-    position: relative;
-    left: 170px;
-}
 #amine{
     border-radius: 50px;
     width: 200px;
@@ -239,7 +231,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .name3{
     display: flex;
@@ -249,10 +241,6 @@ main{
 
 #intervention3{
     text-align: center;
-}
-#linkedin3{
-    position: relative;
-    left: 170px;
 }
 #salma{
     border-radius: 50px;
@@ -265,7 +253,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .name4{
     display: flex;
@@ -275,10 +263,6 @@ main{
 
 #intervention4{
     text-align: center;
-}
-#linkedin4{
-    position: relative;
-    left: 170px;
 }
 #fatima{
     border-radius: 50px;
@@ -291,7 +275,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .name5{
     display: flex;
@@ -301,10 +285,6 @@ main{
 
 #intervention5{
     text-align: center;
-}
-#linkedin5{
-    position: relative;
-    left: 170px;
 }
 #rachid{
     border-radius: 50px;
@@ -317,7 +297,7 @@ main{
     border-radius: 50px;
     font-size: 25px;
     font-weight: 100px;
-    text-align: left;
+    text-align: center;
 }
 .name6{
     display: flex;
@@ -327,10 +307,6 @@ main{
 
 #intervention6{
     text-align: center;
-}
-#linkedin6{
-    position: relative;
-    left: 170px;
 }
 #hoda{
     border-radius: 50px;
