@@ -11,8 +11,11 @@ body{
     background-color: #485C11;
     height: 40px;
     width: 100px;
-    font-size: small;
+    font-size: medium;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 
 }
 header{
@@ -98,10 +101,13 @@ main{
 #dbtn {
     color: white;
     background-color: #485C11;
-    height: 50px;
+    height: 80px;
     width: 100%;
-    font-size: 30px;
-    margin: 0;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
 }
 #image1 {
     width: 100%;
@@ -131,7 +137,7 @@ main{
 .prog2{
     font-size: 30px;
 }
-#pjour{
+.pjour{
     font-size: 40px;
 }
 
