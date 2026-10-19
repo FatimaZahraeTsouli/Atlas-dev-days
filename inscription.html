@@ -25,7 +25,7 @@ plusieurs intérvenants.">
 
     <main id="main4">
         <h1 id="titre">FORMULAIRE D'INSCRIPTION</h1>
-        <h2>Veuillez remplire ce formulaire pour pouvoir participer à la conférence organisée par Atlas-Dev-Days<br> le 11 et 12 october 2026 à Nador</h2>
+        <h2>Veuillez remplire ce formulaire pour pouvoir participer à la conférence organisée par Atlas-Dev-Days<br> le 11 et 12 octobre 2026 à Nador</h2>
         <form>
             <label for="name" id="nom1">Nom Complet:</label><br>
             <input type="text" id="name" minlength="3" required><br><br>
@@ -34,7 +34,7 @@ plusieurs intérvenants.">
             <input type="email" id="email" required><br><br>
 
             <label for="tel" id="tel1">Telephone:</label><br>
-            <input type="tel" id="tel" name="tel" pattern="^(\+212|0)[5-7][0-9]{8}$" required><br><br>
+            <input type="tel" id="tel" name="tel" pattern="^(\+212|0)[5-7][0-9]{8}$" required><br><br> 
 
             <label id="profil1">Profile:</label><br><br>
             <div class="profile">
@@ -49,7 +49,7 @@ plusieurs intérvenants.">
                 </div>
     
                 <div>
-                    <input type="radio" name="Profile" value="autre">&emsp;
+                    <input type="radio" name="Profile" id="autre" value="autre">&emsp;
                     <label for="autre" >Autre</label>
                 </div>
             </div><br>
@@ -58,31 +58,31 @@ plusieurs intérvenants.">
             <div class="atelier">
 
                 <div>
-                    <input type="checkbox" name="atelier" value="Git/Github" >&emsp;
+                    <input type="checkbox" name="atelier" id="Git" value="Git/Github" >&emsp;
                     <label for="Git/Github">Git/Github</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="atelier" value="HTML/CSS">&emsp;
+                    <input type="checkbox" name="atelier" id="html" value="HTML/CSS">&emsp;
                     <label for="HTML/CSS">HTML/CSS</label>
                 </div>
     
                 <div>
-                    <input type="checkbox" name="atelier" value="Java/JavaScript">&emsp;
+                    <input type="checkbox" name="atelier" id="Java" value="Java/JavaScript">&emsp;
                     <label for="Java/JavaScript" >Java/JavaScript</label>
                 </div>
             </div><br><br>
             <label id="jour">Journée(s) de participation:</label><br><br>
             <div class="jours">
                 <div>
-                    <input type="radio" name="jour" value="Jour1" required>&emsp;
+                    <input type="radio" name="jour" id="jour1" value="Jour1" required>&emsp;
                     <label for="jour1">journée 1</label>
                 </div>
                 <div>
-                    <input type="radio" name="jour" value="Jour2">&emsp;
+                    <input type="radio" name="jour" id="jour2" value="Jour2">&emsp;
                     <label for="jour2">journée 2</label>
                 </div>
                 <div>
-                    <input type="radio" name="jour" value="les deux">&emsp;
+                    <input type="radio" name="jour" id="lesdeux"  value="les deux">&emsp;
                     <label for="les deux">Les Deux Jours</label>
                 </div>
             </div><br><br>
